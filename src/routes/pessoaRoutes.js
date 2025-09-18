@@ -9,6 +9,6 @@ const router = express.Router();
 
 router.get("/pessoas", listarPessoas);
 router.post("/pessoas", criarPessoa);
-router.delete("pessoas/:id", deletarPessoa);
+router.delete("/pessoas/:id", deletarPessoa);
 
 export default router;
